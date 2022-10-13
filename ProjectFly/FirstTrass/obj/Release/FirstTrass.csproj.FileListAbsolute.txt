@@ -1,0 +1,94 @@
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\bin\Release\FirstTrass.exe.config
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\bin\Release\FirstTrass.exe
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\bin\Release\FirstTrass.pdb
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\obj\Release\FirstTrass.csproj.SuggestedBindingRedirects.cache
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\obj\Release\FirstTrass.Form1.resources
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\obj\Release\FirstTrass.Form3.resources
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\obj\Release\FirstTrass.Properties.Resources.resources
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\obj\Release\FirstTrass.csproj.GenerateResource.cache
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\obj\Release\FirstTrass.csproj.CoreCompileInputs.cache
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\obj\Release\FirstTrass.exe
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\obj\Release\FirstTrass.pdb
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\obj\Release\FirstTrass.csproj.AssemblyReference.cache
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\bin\Release\FirstTrass.exe.config
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\bin\Release\FirstTrass.exe
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\bin\Release\FirstTrass.pdb
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.csproj.AssemblyReference.cache
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.csproj.SuggestedBindingRedirects.cache
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.Form1.resources
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.Form3.resources
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.Properties.Resources.resources
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.csproj.GenerateResource.cache
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.csproj.CoreCompileInputs.cache
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.exe
+C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.pdb
+C:\Users\Владимир Сметана\Desktop\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\bin\Release\FirstTrass.exe.config
+C:\Users\Владимир Сметана\Desktop\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\bin\Release\FirstTrass.exe
+C:\Users\Владимир Сметана\Desktop\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\bin\Release\FirstTrass.pdb
+C:\Users\Владимир Сметана\Desktop\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.csproj.AssemblyReference.cache
+C:\Users\Владимир Сметана\Desktop\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.csproj.SuggestedBindingRedirects.cache
+C:\Users\Владимир Сметана\Desktop\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.Form1.resources
+C:\Users\Владимир Сметана\Desktop\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.Form3.resources
+C:\Users\Владимир Сметана\Desktop\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.Properties.Resources.resources
+C:\Users\Владимир Сметана\Desktop\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.csproj.GenerateResource.cache
+C:\Users\Владимир Сметана\Desktop\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.csproj.CoreCompileInputs.cache
+C:\Users\Владимир Сметана\Desktop\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.exe
+C:\Users\Владимир Сметана\Desktop\PRG2022\Flying\FirstTrass.SecondIt\FirstTrass\obj\Release\FirstTrass.pdb
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\bin\Release\FirstTrass.exe.config
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\bin\Release\FirstTrass.exe
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\bin\Release\FirstTrass.pdb
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\obj\Release\FirstTrass.csproj.AssemblyReference.cache
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\obj\Release\FirstTrass.csproj.SuggestedBindingRedirects.cache
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\obj\Release\FirstTrass.Form1.resources
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\obj\Release\FirstTrass.Form3.resources
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\obj\Release\FirstTrass.Form4.resources
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\obj\Release\FirstTrass.Properties.Resources.resources
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\obj\Release\FirstTrass.csproj.GenerateResource.cache
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\obj\Release\FirstTrass.csproj.CoreCompileInputs.cache
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\obj\Release\FirstTrass.exe
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\obj\Release\FirstTrass.pdb
+C:\Users\Владимир Сметана\Desktop\3T\FirstTrass\obj\Release\FirstTrass.Form5.resources
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\obj\Release\FirstTrass.csproj.AssemblyReference.cache
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\obj\Release\FirstTrass.csproj.SuggestedBindingRedirects.cache
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\obj\Release\FirstTrass.Form1.resources
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\obj\Release\FirstTrass.Form3.resources
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\obj\Release\FirstTrass.Form4.resources
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\obj\Release\FirstTrass.Form5.resources
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\obj\Release\FirstTrass.Properties.Resources.resources
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\obj\Release\FirstTrass.csproj.GenerateResource.cache
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\obj\Release\FirstTrass.csproj.CoreCompileInputs.cache
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\obj\Release\FirstTrass.exe
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\obj\Release\FirstTrass.pdb
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\bin\Release\FirstTrass.exe.config
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\bin\Release\FirstTrass.exe
+C:\Users\Владимир Сметана\Desktop\3TTTT\FirstTrass\bin\Release\FirstTrass.pdb
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.csproj.AssemblyReference.cache
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.csproj.SuggestedBindingRedirects.cache
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.Form1.resources
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.Form3.resources
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.Form4.resources
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.Form5.resources
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.Properties.Resources.resources
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.csproj.GenerateResource.cache
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.csproj.CoreCompileInputs.cache
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.exe
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.pdb
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\bin\Release\FirstTrass.exe.config
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\bin\Release\FirstTrass.exe
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\bin\Release\FirstTrass.pdb
+C:\Users\Владимир Сметана\Desktop\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.Form6.resources
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\bin\Release\FirstTrass.exe.config
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\bin\Release\FirstTrass.exe
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\bin\Release\FirstTrass.pdb
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.csproj.AssemblyReference.cache
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.csproj.SuggestedBindingRedirects.cache
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.Form1.resources
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.Form3.resources
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.Form4.resources
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.Form5.resources
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.Form6.resources
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.Properties.Resources.resources
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.csproj.GenerateResource.cache
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.csproj.CoreCompileInputs.cache
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.exe
+C:\Users\Владимир Сметана\Desktop\Статьи\ТРН\3TTTT\FirstTrass\obj\Release\FirstTrass.pdb
