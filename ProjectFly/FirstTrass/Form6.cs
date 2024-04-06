@@ -27,6 +27,8 @@ namespace FirstTrass
         }
         private void button1_Click_1(object sender, EventArgs e)
         {
+
+
             H = Form1.H;
             Mah = Form1.Mah;
             T = Form1.T;

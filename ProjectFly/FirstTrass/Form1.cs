@@ -308,6 +308,15 @@ namespace FirstTrass
             Form4.Ottlist.Clear();
 
             Form5.timelist.Clear();
+            Form5.timelist.Clear();
+            Form5.Mahlist.Clear();
+
+            Form6.timelist.Clear();
+            Form6.Mahlist.Clear();
+            Form6.Hlist.Clear();
+            Form6.Plist.Clear();
+            Form6.polist.Clear();
+            Form6.Tlist.Clear();
             /// Задание параметров каждой ступени
             Y = Math.PI / 2.0;
 

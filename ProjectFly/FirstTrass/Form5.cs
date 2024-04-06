@@ -59,6 +59,7 @@ namespace FirstTrass
         }
         // "Расчет"
         private void button1_Click(object sender, EventArgs e)
+
         {
             chart6.Series[0].Points.Clear();
             // Перенос исходных данных

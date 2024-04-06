@@ -69,7 +69,6 @@ namespace FirstTrass
                 chart4.ChartAreas[0].AxisY.Title = "Ott, град";
                 chart4.Series[0].Name = "Угол наклона траектории";
 
-
                 chart5.Series[0].Points.AddXY(timelist[i], Ulist[i] * 180 / Math.PI);
                 chart5.ChartAreas[0].AxisX.Title = "t,с";
                 chart5.ChartAreas[0].AxisY.Title = "U, град";
