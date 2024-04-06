@@ -43,3 +43,17 @@ C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Inter
 C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\obj\Debug\FirstTrass.exe
 C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\obj\Debug\FirstTrass.pdb
 C:\Users\aeroc\OneDrive\Рабочий стол\PRG2022\Flying\FirstTrass. Interface\FirstTrass\obj\Debug\FirstTrass.Form3.resources
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\bin\Debug\FirstTrass.exe.config
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\bin\Debug\FirstTrass.exe
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\bin\Debug\FirstTrass.pdb
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.csproj.AssemblyReference.cache
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.Form1.resources
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.Form3.resources
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.Form4.resources
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.Form5.resources
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.Form6.resources
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.Properties.Resources.resources
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.csproj.GenerateResource.cache
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.csproj.CoreCompileInputs.cache
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.exe
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.pdb

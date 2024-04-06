@@ -561,6 +561,7 @@ namespace FirstTrass
                 Form6.polist.Add(po);
                 Form6.Tlist.Add(T);
             }
+
         }
         public Form1()
         {

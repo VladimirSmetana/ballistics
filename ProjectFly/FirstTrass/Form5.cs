@@ -172,21 +172,20 @@ namespace FirstTrass
             textBox9.Text = Convert.ToString(Xcm);
 
             chart1.Series[0].Points.Clear();
-            chart1.Series[0].Points.AddXY(time, Xcm);
-
             chart2.Series[0].Points.Clear();
-            chart2.Series[0].Points.AddXY(time, Ssumm);
-
             chart3.Series[0].Points.Clear();
-            chart3.Series[0].Points.AddXY(time, Isumm);
-
             chart4.Series[0].Points.Clear();
-            chart4.Series[0].Points.AddXY(time, Lrocket);
-
             chart5.Series[0].Points.Clear();
-            chart5.Series[0].Points.AddXY(time, Iz);
-
             chart6.Series[0].Points.Clear();
+            chart7.Series[0].Points.Clear();
+
+/*            chart1.Series[0].Points.AddXY(time, Xcm);
+            chart2.Series[0].Points.AddXY(time, Ssumm);
+            chart3.Series[0].Points.AddXY(time, Isumm);
+            chart4.Series[0].Points.AddXY(time, Lrocket);
+            chart5.Series[0].Points.AddXY(time, Iz);*/
+
+
 
             T1 = Form1.v1;
             T2 = Form1.v2;
