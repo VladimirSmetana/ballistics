@@ -19,7 +19,7 @@ namespace FirstTrass
         /// <summary>
         /// Высота
         /// </summary>
-        public static double H, H0;
+        public static double H, H0, Hsys;
         /// <summary>
         /// Плотность воздуха
         /// </summary>
@@ -108,7 +108,9 @@ namespace FirstTrass
                              Mc, gc, ac, Hpc, n, nc, pc, Tc, vc, yc, nuc, muc, lac, poc, omegac, tCel, Bett, Tm, pp, yyd,
                              Hmas, A0, A1, A2, A3, A4, mstep, vsred, lsred, omega, lamb, mu, nu, Re, CfM2, XT, natr, CD, Cdnose;
 
- 
+
+
+
 
 
 
@@ -251,6 +253,7 @@ namespace FirstTrass
             mb1 = Form3.mb1; mb2 = Form3.mb2; mb3 = Form3.mb3;
             mt1 = Form3.mt1; mt2 = Form3.mt2; mt3 = Form3.mt3;
             mpn = Form3.mpn;
+            Hsys = Form3.H;
             M1 = mpn+mb1+mb2+mb3;
 
             /// Расчет моментов времени работы ступеней
@@ -520,26 +523,25 @@ namespace FirstTrass
                 ///xpruv = time;
                 /// Вывод результатов моделирования на графиках
                 chart1.Series[0].Points.AddXY(time, m);
-                chart1.ChartAreas[0].AxisX.Title = "t,c";
-                chart1.ChartAreas[0].AxisY.Title = "m, кг";
+                chart1.ChartAreas[0].AxisX.Title = "Время полета,c";
+                chart1.ChartAreas[0].AxisY.Title = "Масса, кг";
                 chart1.Series[0].Name = "Масса РН";
-
                 ///
                 chart4.Series[0].Points.AddXY(time, V);
-                chart4.ChartAreas[0].AxisX.Title = "t,c";
-                chart4.ChartAreas[0].AxisY.Title = "V, км/с";
+                chart4.ChartAreas[0].AxisX.Title = "Время полета,c";
+                chart4.ChartAreas[0].AxisY.Title = "Скорость, м/с";
                 chart4.Series[0].Name = "Скорость РН";
 
                 ///
                 chart6.Series[0].Points.AddXY(time, H/1000);
-                chart6.ChartAreas[0].AxisX.Title = "t,c";
-                chart6.ChartAreas[0].AxisY.Title = "H, км";
+                chart6.ChartAreas[0].AxisX.Title = "Время полета,c";
+                chart6.ChartAreas[0].AxisY.Title = "Высота, км";
                 chart6.Series[0].Name = "Высота полета";
 
                 ///
                 chart8.Series[0].Points.AddXY(x/1000, y/1000);
-                chart8.ChartAreas[0].AxisX.Title = "x, км";
-                chart8.ChartAreas[0].AxisY.Title = "y, км";
+                chart8.ChartAreas[0].AxisX.Title = "Дальность, км";
+                chart8.ChartAreas[0].AxisY.Title = "Высота, км";
                 chart8.Series[0].Name = "Траектория";
 
                 /// Вывод конечных значений параметров
@@ -552,7 +554,9 @@ namespace FirstTrass
                 textBox7.Text = Convert.ToString(time);
                 textBox13.Text= Convert.ToString(U * 180 / Math.PI);
 
-
+                if ((H / 1000 > Hsys) && (V > 7810)) { label28.Text = "Цель достигнута!"; label28.Show(); label28.ForeColor = System.Drawing.Color.Green; }
+                else { label28.Text = "Цель не достигнута!"  ; label28.Show(); label28.ForeColor = System.Drawing.Color.Red; }
+                
 
                 Form4.timelist.Add(time);
                 Form4.alphalist.Add(alpha);

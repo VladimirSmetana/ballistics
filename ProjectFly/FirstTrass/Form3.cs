@@ -24,6 +24,7 @@ namespace FirstTrass
         public static double kompsot;
         public static double mk1, mk2, mk3, pk, wk1, wk2, wk3, psr, wgo, wpo, mg1, mg2, mg3, wg1, wg2, wg3, mo1, mo2, mo3, wo1, wo2, wo3,
                              Lg1, Lg2, Lg3, Lo1, Lo2, Lo3, Lb1, Lb2, Lb3, Lgo, Lrocket, wrocket, mt1, mt2, mt3, Leng1, Leng2, Leng3;
+        public static double H;
         private void button3_Click(object sender, EventArgs e)
         {
             new Form5().Show();
@@ -109,6 +110,7 @@ namespace FirstTrass
             s1 = Convert.ToDouble(textBox1.Text); 
             s2 = Convert.ToDouble(textBox2.Text); 
             s3 = Convert.ToDouble(textBox3.Text);
+            H = Convert.ToDouble(textBox14.Text);
 
             Leng1 = 0.85 * 1.4 * 0.125 * Math.Pow(PENG1 / 9.8, 0.25); Leng2 = 0.85 * 1.4 * 0.125 * Math.Pow(PENG2 / 9.8, 0.25); Leng3 = 0.85 * 1.4 * 0.125 * Math.Pow(PENG3 / 9.8, 0.25);
             mt1 = mb1 * (s1 - 1) / s1; mt2 = mb2 * (s2 - 1) / s2; mt3 = mb3 * (s3 - 1) / s3;

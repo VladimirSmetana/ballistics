@@ -340,28 +340,28 @@ namespace FirstTrass
                 CIL = (Form3.Lrocket - Form3.Lgo) / D; CON = (Form3.Lgo) / D; CILCON = CIL / CON;
 
                 chart1.Series[0].Points.AddXY(time, Xcm);
-                chart1.ChartAreas[0].AxisX.Title = "t,c";
-                chart1.ChartAreas[0].AxisY.Title = "Xcm, м";
+                chart1.ChartAreas[0].AxisX.Title = "Время полета,c";
+                chart1.ChartAreas[0].AxisY.Title = "Центр масс, м";
                 chart1.Series[0].Name = "Центр масс";
 
                 chart2.Series[0].Points.AddXY(time, Ssumm);
-                chart2.ChartAreas[0].AxisX.Title = "t,c";
-                chart2.ChartAreas[0].AxisY.Title = "Ssumm, м2";
+                chart2.ChartAreas[0].AxisX.Title = "Время полета,c";
+                chart2.ChartAreas[0].AxisY.Title = "Статический момент, м2";
                 chart2.Series[0].Name = "Статический момент";
 
                 chart3.Series[0].Points.AddXY(time, Isumm);
-                chart3.ChartAreas[0].AxisX.Title = "t,c";
-                chart3.ChartAreas[0].AxisY.Title = "Isumm, м3";
+                chart3.ChartAreas[0].AxisX.Title = "Время полета,c";
+                chart3.ChartAreas[0].AxisY.Title = "Момент инерции X, м3";
                 chart3.Series[0].Name = "Момент инерции X";
 
                 chart4.Series[0].Points.AddXY(time, Lrocket);
-                chart4.ChartAreas[0].AxisX.Title = "t,c";
-                chart4.ChartAreas[0].AxisY.Title = "Lrocket, м";
+                chart4.ChartAreas[0].AxisX.Title = "Время полета,c";
+                chart4.ChartAreas[0].AxisY.Title = "Длина ракеты, м";
                 chart4.Series[0].Name = "Длина ракеты";
 
                 chart5.Series[0].Points.AddXY(time, Iz);
-                chart5.ChartAreas[0].AxisX.Title = "t,c";
-                chart5.ChartAreas[0].AxisY.Title = "Iz, м3";
+                chart5.ChartAreas[0].AxisX.Title = "Время полета,c";
+                chart5.ChartAreas[0].AxisY.Title = "Момент инерции Z, м3";
                 chart5.Series[0].Name = "Момент инерции Z";
 
                 KM = (Math.Pow(Math.Abs(1 - Math.Pow(Mah, 2)), 0.5)) / CIL;
@@ -373,13 +373,13 @@ namespace FirstTrass
                     XF = Lgo - wgo / ((Math.PI * Math.Pow(D, 2)) / 4) + Lgo * dXF;
                     
                     chart6.Series[0].Points.AddXY(time, XF);
-                    chart6.ChartAreas[0].AxisX.Title = "t,c";
-                    chart6.ChartAreas[0].AxisY.Title = "Xf, м";
+                    chart6.ChartAreas[0].AxisX.Title = "Время полета,c";
+                    chart6.ChartAreas[0].AxisY.Title = "Центр давления, м";
                     chart6.Series[0].Name = "Центр давления";
 
                     chart7.Series[0].Points.AddXY(time, ((XF - Xcm)*100)/Lrocket);
-                    chart7.ChartAreas[0].AxisX.Title = "t,c";
-                    chart7.ChartAreas[0].AxisY.Title = "R, %";
+                    chart7.ChartAreas[0].AxisX.Title = "Время полета,c";
+                    chart7.ChartAreas[0].AxisY.Title = "Запас устойчивости, %";
                     chart7.Series[0].Name = "Анализ устойчивости";
             }
              

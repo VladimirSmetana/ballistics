@@ -46,29 +46,29 @@ namespace FirstTrass
             {
 
                 chart1.Series[0].Points.AddXY(timelist[i], Mahlist[i]);
-                chart1.ChartAreas[0].AxisX.Title = "t,c";
-                chart1.ChartAreas[0].AxisY.Title = "М";
+                chart1.ChartAreas[0].AxisX.Title = "Время полета,c";
+                chart1.ChartAreas[0].AxisY.Title = "Число Маха";
                 chart1.Series[0].Name = "Число Маха";
 
                 chart2.Series[0].Points.AddXY(timelist[i], Tlist[i]);
-                chart2.ChartAreas[0].AxisX.Title = "t,c";
-                chart2.ChartAreas[0].AxisY.Title = "T, К";
+                chart2.ChartAreas[0].AxisX.Title = "Время полета,c";
+                chart2.ChartAreas[0].AxisY.Title = "Температура, К";
                 chart2.Series[0].Name = "Температура";
 
                 chart3.Series[0].Points.AddXY(timelist[i], Plist[i]);
-                chart3.ChartAreas[0].AxisX.Title = "t,с";
-                chart3.ChartAreas[0].AxisY.Title = "P, Па";
+                chart3.ChartAreas[0].AxisX.Title = "Время полета,с";
+                chart3.ChartAreas[0].AxisY.Title = "Атм давление, Па";
                 chart3.Series[0].Name = "Атмосферное давление";
 
                 chart4.Series[0].Points.AddXY(timelist[i], polist[i]);
-                chart4.ChartAreas[0].AxisX.Title = "t,с";
-                chart4.ChartAreas[0].AxisY.Title = "po, кг/м3";
+                chart4.ChartAreas[0].AxisX.Title = "Время полета,с";
+                chart4.ChartAreas[0].AxisY.Title = "Плотность воздуха, кг/м3";
                 chart4.Series[0].Name = "Плотность воздуха";
 
 
                 chart5.Series[0].Points.AddXY(timelist[i], Hlist[i] / 1000);
-                chart5.ChartAreas[0].AxisX.Title = "t,с";
-                chart5.ChartAreas[0].AxisY.Title = "H, км";
+                chart5.ChartAreas[0].AxisX.Title = "Время полета,с";
+                chart5.ChartAreas[0].AxisY.Title = "Высота, км";
                 chart5.Series[0].Name = "Высота полета";
             }
         }

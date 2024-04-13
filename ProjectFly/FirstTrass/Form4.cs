@@ -50,28 +50,28 @@ namespace FirstTrass
             for (int i = 0; i < timelist.Count; i++)
             {
                 chart1.Series[0].Points.AddXY(timelist[i], Nlist[i] * 180 / Math.PI);
-                chart1.ChartAreas[0].AxisX.Title = "t,c";
-                chart1.ChartAreas[0].AxisY.Title = "N, град";
+                chart1.ChartAreas[0].AxisX.Title = "Время полета,c";
+                chart1.ChartAreas[0].AxisY.Title = "Полярный угол, град";
                 chart1.Series[0].Name = "Полярный угол";
 
                 chart2.Series[0].Points.AddXY(timelist[i], Ylist[i] * 180 / Math.PI);
-                chart2.ChartAreas[0].AxisX.Title = "t,c";
-                chart2.ChartAreas[0].AxisY.Title = "Y, град";
+                chart2.ChartAreas[0].AxisX.Title = "Время полета,c";
+                chart2.ChartAreas[0].AxisY.Title = "Угол к горизонту, град";
                 chart2.Series[0].Name = "Наклон к горизонту";
 
                 chart3.Series[0].Points.AddXY(timelist[i], alphalist[i]);
-                chart3.ChartAreas[0].AxisX.Title = "t,с";
-                chart3.ChartAreas[0].AxisY.Title = "alpha, град";
+                chart3.ChartAreas[0].AxisX.Title = "Время полета,с";
+                chart3.ChartAreas[0].AxisY.Title = "Угол атаки, град";
                 chart3.Series[0].Name = "Угол атаки";
 
                 chart4.Series[0].Points.AddXY(timelist[i], Ottlist[i]);
-                chart4.ChartAreas[0].AxisX.Title = "t,с";
-                chart4.ChartAreas[0].AxisY.Title = "Ott, град";
+                chart4.ChartAreas[0].AxisX.Title = "Время полета,с";
+                chart4.ChartAreas[0].AxisY.Title = "Угол траектории, град";
                 chart4.Series[0].Name = "Угол наклона траектории";
 
                 chart5.Series[0].Points.AddXY(timelist[i], Ulist[i] * 180 / Math.PI);
-                chart5.ChartAreas[0].AxisX.Title = "t,с";
-                chart5.ChartAreas[0].AxisY.Title = "U, град";
+                chart5.ChartAreas[0].AxisX.Title = "Время полета,с";
+                chart5.ChartAreas[0].AxisY.Title = "Угол тангажа, град";
                 chart5.Series[0].Name = "Угол тангажа";
             }
     }
