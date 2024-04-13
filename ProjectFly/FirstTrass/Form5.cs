@@ -346,12 +346,12 @@ namespace FirstTrass
 
                 chart2.Series[0].Points.AddXY(time, Ssumm);
                 chart2.ChartAreas[0].AxisX.Title = "t,c";
-                chart2.ChartAreas[0].AxisY.Title = "Ssumm, м3";
+                chart2.ChartAreas[0].AxisY.Title = "Ssumm, м2";
                 chart2.Series[0].Name = "Статический момент";
 
                 chart3.Series[0].Points.AddXY(time, Isumm);
                 chart3.ChartAreas[0].AxisX.Title = "t,c";
-                chart3.ChartAreas[0].AxisY.Title = "Isumm, м4";
+                chart3.ChartAreas[0].AxisY.Title = "Isumm, м3";
                 chart3.Series[0].Name = "Момент инерции X";
 
                 chart4.Series[0].Points.AddXY(time, Lrocket);
@@ -361,7 +361,7 @@ namespace FirstTrass
 
                 chart5.Series[0].Points.AddXY(time, Iz);
                 chart5.ChartAreas[0].AxisX.Title = "t,c";
-                chart5.ChartAreas[0].AxisY.Title = "Iz, м4";
+                chart5.ChartAreas[0].AxisY.Title = "Iz, м3";
                 chart5.Series[0].Name = "Момент инерции Z";
 
                 KM = (Math.Pow(Math.Abs(1 - Math.Pow(Mah, 2)), 0.5)) / CIL;

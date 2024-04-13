@@ -57,3 +57,7 @@ C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics
 C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.csproj.CoreCompileInputs.cache
 C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.exe
 C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.pdb
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\bin\Debug\FirstTrass.exe.manifest
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\bin\Debug\FirstTrass.application
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.exe.manifest
+C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.application

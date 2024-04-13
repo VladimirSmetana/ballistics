@@ -436,7 +436,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::FirstTrass.Properties.Resources._1;
+            this.pictureBox1.Image = global::SkyFlight.Properties.Resources._1;
             this.pictureBox1.Location = new System.Drawing.Point(35, 33);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(267, 545);
