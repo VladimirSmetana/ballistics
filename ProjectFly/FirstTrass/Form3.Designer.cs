@@ -94,6 +94,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.AliceBlue;
+            this.button1.Enabled = false;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(943, 503);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
@@ -154,7 +155,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(108, 23);
             this.textBox4.TabIndex = 7;
-            this.textBox4.Text = "43289";
+            this.textBox4.Text = "43000";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox5
@@ -164,7 +165,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(108, 23);
             this.textBox5.TabIndex = 6;
-            this.textBox5.Text = "186456";
+            this.textBox5.Text = "186500";
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox6
@@ -174,7 +175,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(108, 23);
             this.textBox6.TabIndex = 5;
-            this.textBox6.Text = "373297";
+            this.textBox6.Text = "373000";
             this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox7
@@ -209,32 +210,32 @@
             // 
             // textBox10
             // 
+            this.textBox10.Enabled = false;
             this.textBox10.Location = new System.Drawing.Point(941, 327);
             this.textBox10.Margin = new System.Windows.Forms.Padding(4);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(108, 23);
             this.textBox10.TabIndex = 13;
-            this.textBox10.Text = "535932";
             this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox11
             // 
+            this.textBox11.Enabled = false;
             this.textBox11.Location = new System.Drawing.Point(802, 327);
             this.textBox11.Margin = new System.Windows.Forms.Padding(4);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(108, 23);
             this.textBox11.TabIndex = 12;
-            this.textBox11.Text = "2000000";
             this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox12
             // 
+            this.textBox12.Enabled = false;
             this.textBox12.Location = new System.Drawing.Point(663, 327);
             this.textBox12.Margin = new System.Windows.Forms.Padding(4);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(108, 23);
             this.textBox12.TabIndex = 11;
-            this.textBox12.Text = "8009420";
             this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
@@ -386,7 +387,7 @@
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(108, 23);
             this.textBox13.TabIndex = 27;
-            this.textBox13.Text = "22500";
+            this.textBox13.Text = "20000";
             this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox14
@@ -651,6 +652,7 @@
             // 
             // textBox16
             // 
+            this.textBox16.Enabled = false;
             this.textBox16.Location = new System.Drawing.Point(802, 358);
             this.textBox16.Margin = new System.Windows.Forms.Padding(4);
             this.textBox16.Name = "textBox16";
@@ -687,6 +689,7 @@
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(108, 23);
             this.textBox17.TabIndex = 60;
+            this.textBox17.Text = "0,808";
             this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox18
@@ -696,6 +699,7 @@
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(108, 23);
             this.textBox18.TabIndex = 63;
+            this.textBox18.Text = "1,305";
             this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox19
@@ -705,6 +709,7 @@
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(108, 23);
             this.textBox19.TabIndex = 64;
+            this.textBox19.Text = "0,830";
             this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button3
@@ -718,6 +723,7 @@
             this.button3.TabIndex = 65;
             this.button3.Text = "Расчет ИД";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // Form3
             // 

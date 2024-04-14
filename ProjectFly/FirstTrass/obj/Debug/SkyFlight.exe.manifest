@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SkyFlight.exe" size="237024">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SkyFlight.exe" size="237536">
       <assemblyIdentity name="SkyFlight" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UWCcdDQVMay5Mi29lsGFcXE19l2sU9E21aUGZ/PbAeE=</dsig:DigestValue>
+        <dsig:DigestValue>u2o8NwQlYOUkzvJXR59JjP/BiChfc4OgpgBO++k4MRM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -254,7 +254,7 @@ namespace FirstTrass
             mt1 = Form3.mt1; mt2 = Form3.mt2; mt3 = Form3.mt3;
             mpn = Form3.mpn;
             Hsys = Form3.H;
-            M1 = mpn+mb1+mb2+mb3;
+            M1 = mpn*1.1+mb1+mb2+mb3;
 
             /// Расчет моментов времени работы ступеней
             T1 = (mt1 / (PENG1 / w1)); T2 = (mt2 / (PENG2 / w2)); T3 = (mt3 / (PENG3 / w3));
@@ -324,7 +324,7 @@ namespace FirstTrass
             /// Задание параметров каждой ступени
             Y = Math.PI / 2.0;
 
-            while (time < T1 + k1 + T2 + k2 + T3 + k3 + 1 && H >= 0)
+            while (time < T1 + k1 + T2 + k2 + T3 + k3 && H >= 0)
                 {
                 if (time <= T1)
                 {
@@ -353,7 +353,7 @@ namespace FirstTrass
                 {
                     PENG = PENG2;
                     w = w2;
-                    dM = PENG / w;
+                    if (m > Form3.mpn) { dM = PENG / w; } else { dM = 0; }
                     Lrocket = Form3.Lgo + Form3.Lb2 + Form3.Lb3;
                 }
 
@@ -385,7 +385,7 @@ namespace FirstTrass
                 {
                     if (stage3)
                     {
-                        m -= mb3 - mt3;
+                        m -= mb3 - mt3-Form3.mpn*0.1/1.1;
                         stage3 = false;
                     }
                     ///PENG = 0;
@@ -393,16 +393,18 @@ namespace FirstTrass
                     ///dM = 0;
                     PENG = 0;
                     w = w3;
-                    dM = PENG3 / w3;
+                    dM = PENG / w3;
                     Lrocket = Form3.Lgo;
+                    m = Form3.mpn;
                 }
 
-                if (time > (T1 + k1 + T2 + k2 + T3 + k3)) 
+                if (time > (T1 + k1 + T2 + k2 + T3)) 
                 {
                     Lrocket = Form3.Lgo;
                     PENG = PENG3;
                     w = w3;
                     dM = PENG3 / w3;
+                    m = Form3.mpn;
                 }
                 /// Введение атмосферы
                 
@@ -518,7 +520,7 @@ namespace FirstTrass
                 /// Время полета
                 time += t;
                 /// Изменение массы РН
-                m -= t * dM;
+                if (m > Form3.mpn) { m -= t * dM; }
                 ///PRUV = nu;
                 ///xpruv = time;
                 /// Вывод результатов моделирования на графиках
@@ -554,7 +556,7 @@ namespace FirstTrass
                 textBox7.Text = Convert.ToString(time);
                 textBox13.Text= Convert.ToString(U * 180 / Math.PI);
 
-                if ((H / 1000 > Hsys) && (V > 7810)) { label28.Text = "Цель достигнута!"; label28.Show(); label28.ForeColor = System.Drawing.Color.Green; }
+                if ((H / 1000 > Hsys) && (V > 7790)) { label28.Text = "Цель достигнута!"; label28.Show(); label28.ForeColor = System.Drawing.Color.Green; }
                 else { label28.Text = "Цель не достигнута!"  ; label28.Show(); label28.ForeColor = System.Drawing.Color.Red; }
                 
 

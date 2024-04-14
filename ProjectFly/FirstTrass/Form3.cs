@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 
 namespace FirstTrass
@@ -17,6 +18,7 @@ namespace FirstTrass
 
         public static double w1,w2,w3;
         public static double PENG1, PENG2, PENG3;
+        public static double PENG1n, PENG2n, PENG3n;
         public static double mb1, mb2, mb3;
         public static double mpn;
         public static double pg;
@@ -24,11 +26,40 @@ namespace FirstTrass
         public static double kompsot;
         public static double mk1, mk2, mk3, pk, wk1, wk2, wk3, psr, wgo, wpo, mg1, mg2, mg3, wg1, wg2, wg3, mo1, mo2, mo3, wo1, wo2, wo3,
                              Lg1, Lg2, Lg3, Lo1, Lo2, Lo3, Lb1, Lb2, Lb3, Lgo, Lrocket, wrocket, mt1, mt2, mt3, Leng1, Leng2, Leng3;
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            mb1 = Convert.ToDouble(textBox6.Text);
+            mb2 = Convert.ToDouble(textBox5.Text);
+            mb3 = Convert.ToDouble(textBox4.Text);
+            mpn = Convert.ToDouble(textBox13.Text);
+            N1 = Convert.ToDouble(textBox18.Text);
+            N2 = Convert.ToDouble(textBox17.Text);
+            N3 = Convert.ToDouble(textBox19.Text);
+            PENG1n = N1 * (mpn + mb1 + mb2 + mb3)*9.81;
+            PENG2n = N2 * (mpn + mb2 + mb3) * 9.81;
+            PENG3n = N3 * (mpn + mb3) * 9.81;
+            PENG1n /= 1000; PENG1n = Math.Round(PENG1n, 0); PENG1n *= 1000;
+            PENG2n /= 1000; PENG2n = Math.Round(PENG2n, 0); PENG2n *= 1000;
+            PENG3n /= 1000; PENG3n = Math.Round(PENG3n, 0); PENG3n *= 1000;
+
+            textBox12.Text = Convert.ToString(PENG1n);
+            textBox11.Text = Convert.ToString(PENG2n);
+            textBox10.Text = Convert.ToString(PENG3n);
+            textBox16.Text = Convert.ToString(mpn*1.1+mb1+mb2+mb3);
+            button1.Enabled = true;
+        }
+
         public static double H;
+        public static double N1, N2, N3;
+
+
+
         private void button3_Click(object sender, EventArgs e)
         {
             new Form5().Show();
             this.Hide();
+
             if (radioButton1.Checked) { pg = 840; po = 1140; kompsot = 2.7; }
             if (radioButton3.Checked) { pg = 500; po = 1140; kompsot = 3.5; }
             if (radioButton4.Checked) { pg = 71; po = 1140; kompsot = 5.5; }
@@ -40,14 +71,13 @@ namespace FirstTrass
             PENG1 = Convert.ToDouble(textBox12.Text);
             PENG2 = Convert.ToDouble(textBox11.Text);
             PENG3 = Convert.ToDouble(textBox10.Text);
-            mb1 = Convert.ToDouble(textBox6.Text);
-            mb2 = Convert.ToDouble(textBox5.Text);
-            mb3 = Convert.ToDouble(textBox4.Text);
-            mpn = Convert.ToDouble(textBox13.Text);
+
             D = Convert.ToDouble(textBox15.Text);
             s1 = Convert.ToDouble(textBox1.Text);
             s2 = Convert.ToDouble(textBox2.Text);
             s3 = Convert.ToDouble(textBox3.Text);
+
+
 
             Leng1 = 0.85 * 1.4 * 0.125 * Math.Pow(PENG1 / 9.8, 0.25); Leng2 = 0.85 * 1.4 * 0.125 * Math.Pow(PENG2 / 9.8, 0.25); Leng3 = 0.85 * 1.4 * 0.125 * Math.Pow(PENG3 / 9.8, 0.25);
             mt1 = mb1 * (s1 - 1) / s1; mt2 = mb2 * (s2 - 1) /s2; mt3 = mb3 * (s3 - 1) / s3;
