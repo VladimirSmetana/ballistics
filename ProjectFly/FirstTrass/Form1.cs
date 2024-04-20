@@ -132,12 +132,12 @@ namespace FirstTrass
         private void button4_Click(object sender, EventArgs e)
         {
             new Form4().Show();
-            this.Hide();
+            //this.Hide();
         }
         private void button6_Click(object sender, EventArgs e)
         {
             new Form5().Show();
-            this.Hide();
+            //this.Hide();
         }
         private void button3_Click(object sender, EventArgs e)
         {
@@ -148,7 +148,7 @@ namespace FirstTrass
         private void button5_Click_1(object sender, EventArgs e)
         {
             new Form6().Show();
-            this.Hide();
+            //this.Hide();
         }
         /// <summary>
         /// Время начала пуска
@@ -556,7 +556,7 @@ namespace FirstTrass
                 textBox7.Text = Convert.ToString(time);
                 textBox13.Text= Convert.ToString(U * 180 / Math.PI);
 
-                if ((H / 1000 > Hsys) && (V > 7790)) { label28.Text = "Цель достигнута!"; label28.Show(); label28.ForeColor = System.Drawing.Color.Green; }
+                if ((H / 1000 > Hsys) && (V > 7790*Math.Sqrt(6371/(6371+Form3.H)))) { label28.Text = "Цель достигнута!"; label28.Show(); label28.ForeColor = System.Drawing.Color.Green; }
                 else { label28.Text = "Цель не достигнута!"  ; label28.Show(); label28.ForeColor = System.Drawing.Color.Red; }
                 
 

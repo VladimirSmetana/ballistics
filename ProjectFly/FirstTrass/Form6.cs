@@ -75,7 +75,7 @@ namespace FirstTrass
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            new Form1().Show();
+            //new Form1().Show();
 
             this.Hide();
         }

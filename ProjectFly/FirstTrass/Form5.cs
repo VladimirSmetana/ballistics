@@ -94,7 +94,7 @@ namespace FirstTrass
             wo1 = mo1  / po; wo2 = mo2  / po; wo3 = mo3  / po;
 
             wrocket = (wg1 + wg2 + wg3 + wo1 + wo2 + wo3 + wk1 + wk2 + wk3 + wpo + wgo) / (1 - 0.15);
-            textBox1.Text = Convert.ToString(wrocket);
+            textBox1.Text = Convert.ToString(Math.Round(wrocket, 2));
 
             Lg1 = wg1 * 4 / (Math.PI * Math.Pow(D, 2)); Lg2 = wg2 * 4 / (Math.PI * Math.Pow(D, 2)); Lg3 = wg3 * 4 / (Math.PI * Math.Pow(D, 2));
             Lo1 = wo1 * 4 / (Math.PI * Math.Pow(D, 2)); Lo2 = wo2 * 4 / (Math.PI * Math.Pow(D, 2)); Lo3 = wo3 * 4 / (Math.PI * Math.Pow(D, 2));
@@ -102,16 +102,16 @@ namespace FirstTrass
             Lgo = (wgo+wpo) * 3 * 4 / (Math.PI * Math.Pow(D, 2)); 
             Lb1 = Lg1 + Lo1 + Leng[0]; Lb2 = Lg2 + Lo2 + Leng[1]; Lb3 = Lg3 + Lo3 + Leng[2];
             Ug1 = Lg1; Ug2 = Lg2; Ug3 = Lg3; Uo1 = Lo1; Uo2 = Lo2; Uo3 = Lo3;
-            Lrocket = Lgo + Lb1 + Lb2 + Lb3 ; textBox2.Text = Convert.ToString(Lrocket);
+            Lrocket = Lgo + Lb1 + Lb2 + Lb3 ; textBox2.Text = Convert.ToString(Math.Round(Lrocket,2));
 
-            textBox3.Text = Convert.ToString(Lg1); textBox4.Text = Convert.ToString(Lg2); textBox5.Text = Convert.ToString(Lg3);
-            textBox6.Text = Convert.ToString(Lo1); textBox7.Text = Convert.ToString(Lo2); textBox8.Text = Convert.ToString(Lo3);
+            textBox3.Text = Convert.ToString(Math.Round(Lg1,2)); textBox4.Text = Convert.ToString(Math.Round(Lg2, 2)); textBox5.Text = Convert.ToString(Math.Round(Lg3, 2));
+            textBox6.Text = Convert.ToString(Math.Round(Lo1, 2)); textBox7.Text = Convert.ToString(Math.Round(Lo2, 2)); textBox8.Text = Convert.ToString(Math.Round(Lo3, 2));
 
-            textBox16.Text = Convert.ToString(mg1); textBox17.Text = Convert.ToString(mg2); textBox18.Text = Convert.ToString(mg3);
-            textBox19.Text = Convert.ToString(mo1); textBox20.Text = Convert.ToString(mo2); textBox21.Text = Convert.ToString(mo3);
+            textBox16.Text = Convert.ToString(Math.Round(mg1, 0)); textBox17.Text = Convert.ToString(Math.Round(mg2, 0)); textBox18.Text = Convert.ToString(Math.Round(mg3, 0));
+            textBox19.Text = Convert.ToString(Math.Round(mo1, 0)); textBox20.Text = Convert.ToString(Math.Round(mo2, 0)); textBox21.Text = Convert.ToString(Math.Round(mo3, 0));
 
-            textBox22.Text = Convert.ToString(wg1); textBox23.Text = Convert.ToString(wg2); textBox24.Text = Convert.ToString(wg3);
-            textBox25.Text = Convert.ToString(wo1); textBox26.Text = Convert.ToString(wo2); textBox27.Text = Convert.ToString(wo3);
+            textBox22.Text = Convert.ToString(Math.Round(wg1, 2)); textBox23.Text = Convert.ToString(Math.Round(wg2, 2)); textBox24.Text = Convert.ToString(Math.Round(wg3, 2));
+            textBox25.Text = Convert.ToString(Math.Round(wo1, 2)); textBox26.Text = Convert.ToString(Math.Round(wo2, 2)); textBox27.Text = Convert.ToString(Math.Round(wo3, 2));
 
             // Расчет стартовых инерционных характеристик
             K31o = Lgo + Uo3 - Lo3;
@@ -163,14 +163,14 @@ namespace FirstTrass
             Ito = Ito1 + Ito2 + Ito3;
             Itg = Itg1 + Itg2 + Itg3;
             Isumm = Ito + Itg + Ik + (D * Math.Pow(Lgo, 3) / 12);
-            textBox11.Text = Convert.ToString(Isumm);
+            textBox11.Text = Convert.ToString(Math.Round(Isumm, 3));
 
             Ssumm = Sto + Stg + Sk + (D * Math.Pow(Lgo, 2) / 24);
             m = (mpn + mt1 + mt2 + mt3 + mk1 + mk2 + mk3);
             Xcm = Ssumm / m;
-            textBox28.Text = Convert.ToString(m);
-            textBox10.Text = Convert.ToString(Ssumm);
-            textBox9.Text = Convert.ToString(Xcm);
+            textBox28.Text = Convert.ToString(Math.Round(m, 0));
+            textBox10.Text = Convert.ToString(Math.Round(Ssumm, 3));
+            textBox9.Text = Convert.ToString(Math.Round(Xcm,2));
 
             chart1.Series[0].Points.Clear();
             chart2.Series[0].Points.Clear();
@@ -379,7 +379,7 @@ namespace FirstTrass
 
                     chart7.Series[0].Points.AddXY(time, ((XF - Xcm)*100)/Lrocket);
                     chart7.ChartAreas[0].AxisX.Title = "Время полета,c";
-                    chart7.ChartAreas[0].AxisY.Title = "Запас устойчивости, %";
+                    chart7.ChartAreas[0].AxisY.Title = "Устойчивость, %";
                     chart7.Series[0].Name = "Анализ устойчивости";
             }
              
@@ -390,7 +390,7 @@ namespace FirstTrass
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new Form3().Show();
+            //new Form3().Show();
             this.Hide();
         }
     }

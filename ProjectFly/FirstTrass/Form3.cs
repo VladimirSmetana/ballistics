@@ -57,8 +57,8 @@ namespace FirstTrass
 
         private void button3_Click(object sender, EventArgs e)
         {
-            new Form5().Show();
-            this.Hide();
+            //new Form5().Show();
+            this.Enabled = true;
 
             if (radioButton1.Checked) { pg = 840; po = 1140; kompsot = 2.7; }
             if (radioButton3.Checked) { pg = 500; po = 1140; kompsot = 3.5; }
@@ -118,7 +118,9 @@ namespace FirstTrass
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            new Form1().Show();
+            Form f = new Form1();
+            f.Show();
+
             this.Hide();
 
             if (radioButton1.Checked) { pg = 840; po = 1140; kompsot = 2.7; }
