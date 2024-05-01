@@ -63,6 +63,8 @@
   <PropertyGroup>
     <ApplicationIcon>Letter_S_black_34884.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />

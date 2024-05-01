@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace FirstTrass
 {
@@ -108,6 +109,25 @@ namespace FirstTrass
                              Mc, gc, ac, Hpc, n, nc, pc, Tc, vc, yc, nuc, muc, lac, poc, omegac, tCel, Bett, Tm, pp, yyd,
                              Hmas, A0, A1, A2, A3, A4, mstep, vsred, lsred, omega, lamb, mu, nu, Re, CfM2, XT, natr, CD, Cdnose;
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            textBox14.Text = SkyFlight.Properties.Settings.Default.t1;
+            textBox16.Text = SkyFlight.Properties.Settings.Default.t2;
+            textBox17.Text = SkyFlight.Properties.Settings.Default.t3;
+            textBox8.Text = SkyFlight.Properties.Settings.Default.a1;
+            textBox9.Text = SkyFlight.Properties.Settings.Default.a2;
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            SkyFlight.Properties.Settings.Default.t1 = textBox14.Text;
+            SkyFlight.Properties.Settings.Default.t2 = textBox16.Text;
+            SkyFlight.Properties.Settings.Default.t3 = textBox17.Text;
+            SkyFlight.Properties.Settings.Default.a1 = textBox8.Text;
+            SkyFlight.Properties.Settings.Default.a2 = textBox9.Text;
+            SkyFlight.Properties.Settings.Default.Save();
+        }
+
 
 
 
@@ -141,8 +161,10 @@ namespace FirstTrass
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            new Form3().Show();
-            this.Hide();
+            //new Form3().Show();
+            System.Diagnostics.Process.Start(Application.ExecutablePath);
+            Application.Exit();
+            this.Close();
         }
 
         private void button5_Click_1(object sender, EventArgs e)

@@ -27,6 +27,44 @@ namespace FirstTrass
         public static double mk1, mk2, mk3, pk, wk1, wk2, wk3, psr, wgo, wpo, mg1, mg2, mg3, wg1, wg2, wg3, mo1, mo2, mo3, wo1, wo2, wo3,
                              Lg1, Lg2, Lg3, Lo1, Lo2, Lo3, Lb1, Lb2, Lb3, Lgo, Lrocket, wrocket, mt1, mt2, mt3, Leng1, Leng2, Leng3;
 
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            textBox1.Text = SkyFlight.Properties.Settings.Default.s1;
+            textBox2.Text = SkyFlight.Properties.Settings.Default.s2;
+            textBox3.Text = SkyFlight.Properties.Settings.Default.s3;
+            textBox6.Text = SkyFlight.Properties.Settings.Default.m1;
+            textBox5.Text = SkyFlight.Properties.Settings.Default.m2;
+            textBox4.Text = SkyFlight.Properties.Settings.Default.m3;
+            textBox13.Text = SkyFlight.Properties.Settings.Default.mpn;
+            textBox9.Text = SkyFlight.Properties.Settings.Default.w1;
+            textBox8.Text = SkyFlight.Properties.Settings.Default.w2;
+            textBox7.Text = SkyFlight.Properties.Settings.Default.w3;
+            textBox14.Text = SkyFlight.Properties.Settings.Default.H;
+            textBox18.Text = SkyFlight.Properties.Settings.Default.n1;
+            textBox17.Text = SkyFlight.Properties.Settings.Default.n2;
+            textBox19.Text = SkyFlight.Properties.Settings.Default.n3;
+            textBox15.Text = SkyFlight.Properties.Settings.Default.Dr;
+        }
+        private void Form3_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            SkyFlight.Properties.Settings.Default.s1 = textBox1.Text;
+            SkyFlight.Properties.Settings.Default.s2 = textBox2.Text;
+            SkyFlight.Properties.Settings.Default.s3 = textBox3.Text;
+            SkyFlight.Properties.Settings.Default.m1 = textBox6.Text;
+            SkyFlight.Properties.Settings.Default.m2 = textBox5.Text;
+            SkyFlight.Properties.Settings.Default.m3 = textBox4.Text;
+            SkyFlight.Properties.Settings.Default.mpn = textBox13.Text;
+            SkyFlight.Properties.Settings.Default.w1 = textBox9.Text;
+            SkyFlight.Properties.Settings.Default.w2 = textBox8.Text;
+            SkyFlight.Properties.Settings.Default.w3 = textBox7.Text;
+            SkyFlight.Properties.Settings.Default.H = textBox14.Text;
+            SkyFlight.Properties.Settings.Default.n1 = textBox18.Text;
+            SkyFlight.Properties.Settings.Default.n2 = textBox17.Text;
+            SkyFlight.Properties.Settings.Default.n3 = textBox19.Text;
+            SkyFlight.Properties.Settings.Default.Dr = textBox15.Text;
+            SkyFlight.Properties.Settings.Default.Save();
+        }
+
         private void button3_Click_1(object sender, EventArgs e)
         {
             mb1 = Convert.ToDouble(textBox6.Text);
@@ -102,7 +140,7 @@ namespace FirstTrass
 
             Lgo = (wgo + wpo) * 3 * 4 / (Math.PI * Math.Pow(D, 2));
             Lb1 = Lg1 + Lo1 + Leng1; Lb2 = Lg2 + Lo2 + Leng2; Lb3 = Lg3 + Lo3 + Leng3;
-            Lrocket = Lgo + Lb1 + Lb2 + Lb3; textBox15.Text = Convert.ToString(pg);
+            Lrocket = Lgo + Lb1 + Lb2 + Lb3; //textBox15.Text = Convert.ToString(pg);
         }
 
         public static double D;
@@ -112,16 +150,12 @@ namespace FirstTrass
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
-        {
 
-        }
         private void button1_Click(object sender, EventArgs e)
         {
             Form f = new Form1();
             f.Show();
-
-            this.Hide();
+            //this.Hide();
 
             if (radioButton1.Checked) { pg = 840; po = 1140; kompsot = 2.7; }
             if (radioButton3.Checked) { pg = 500; po = 1140; kompsot = 3.5; }
@@ -167,7 +201,7 @@ namespace FirstTrass
 
             Lgo = (wgo + wpo) * 3 * 4 / (Math.PI * Math.Pow(D, 2));
             Lb1 = Lg1 + Lo1 + Leng1; Lb2 = Lg2 + Lo2 + Leng2; Lb3 = Lg3 + Lo3 + Leng3;
-            Lrocket = Lgo + Lb1 + Lb2 + Lb3; textBox15.Text = Convert.ToString(pg);
+            Lrocket = Lgo + Lb1 + Lb2 + Lb3; //textBox15.Text = Convert.ToString(pg);
         }
 
         private void button2_Click(object sender, EventArgs e)

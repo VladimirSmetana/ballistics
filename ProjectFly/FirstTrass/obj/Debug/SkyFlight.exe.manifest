@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SkyFlight.exe" size="238048">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SkyFlight.exe" size="310240">
       <assemblyIdentity name="SkyFlight" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Lfedake3ZjaztwTpE03w5JmXA2+rQ9hyQcd+31d4vZg=</dsig:DigestValue>
+        <dsig:DigestValue>WHPtIqGFrngFReoZkdrmbbE23cgK8hL7xVpgvPDmJtg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -63,13 +63,13 @@
       <dsig:DigestValue>OLQJctTmHDcAUQHx9h8MXPIxtoWY0cKtvs+k2YqnDuU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SkyFlight.exe.config" size="189">
+  <file name="SkyFlight.exe.config" size="3054">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+      <dsig:DigestValue>sM0CDUbrjt18/wIdsWRrIkF0IuJ2SQMVe2tkltpiD5A=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
