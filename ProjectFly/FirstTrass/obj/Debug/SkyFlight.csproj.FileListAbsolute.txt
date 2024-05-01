@@ -16,3 +16,21 @@ C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics
 C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\SkyFlight.application
 C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\SkyFlight.exe
 C:\Users\smeta\OneDrive\Рабочий стол\Новая папка\ballistics\ProjectFly\FirstTrass\obj\Debug\SkyFlight.pdb
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\obj\Debug\SkyFlight.csproj.AssemblyReference.cache
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.Form1.resources
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.Form3.resources
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.Form4.resources
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.Form5.resources
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\obj\Debug\FirstTrass.Form6.resources
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\obj\Debug\SkyFlight.Properties.Resources.resources
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\obj\Debug\SkyFlight.csproj.GenerateResource.cache
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\obj\Debug\SkyFlight.csproj.CoreCompileInputs.cache
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\obj\Debug\SkyFlight.exe
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\obj\Debug\SkyFlight.pdb
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\bin\Debug\SkyFlight.exe.config
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\bin\Debug\SkyFlight.exe.manifest
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\bin\Debug\SkyFlight.application
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\bin\Debug\SkyFlight.exe
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\bin\Debug\SkyFlight.pdb
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\obj\Debug\SkyFlight.exe.manifest
+C:\Users\smeta\OneDrive\Рабочий стол\ballistics\ballistics\ProjectFly\FirstTrass\obj\Debug\SkyFlight.application

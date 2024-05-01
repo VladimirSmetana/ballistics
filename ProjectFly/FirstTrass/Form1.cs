@@ -252,6 +252,9 @@ namespace FirstTrass
             PENG1 = Form3.PENG1; PENG2 = Form3.PENG2; PENG3 = Form3.PENG3;
             mb1 = Form3.mb1; mb2 = Form3.mb2; mb3 = Form3.mb3;
             mt1 = Form3.mt1; mt2 = Form3.mt2; mt3 = Form3.mt3;
+            mk1 = Form3.mb1 - Form3.mt1;
+            mk2 = Form3.mb2 - Form3.mt2;
+            mk3 = Form3.mb3 - Form3.mt3;
             mpn = Form3.mpn;
             Hsys = Form3.H;
             M1 = mpn*1.1+mb1+mb2+mb3;
@@ -337,7 +340,7 @@ namespace FirstTrass
                 {
                     if (stage1)
                     {
-                        m -= mb1 - mt1;
+                        m -= mk1;
                         stage1 = false;
                     }
                     ///PENG = 0;
@@ -351,6 +354,11 @@ namespace FirstTrass
 
                 if (time > (T1+k1) && time <= (T1 + k1 + T2))
                 {
+                    if (stage1)
+                    {
+                        m -= mk1;
+                        stage1 = false;
+                    }
                     PENG = PENG2;
                     w = w2;
                     if (m > Form3.mpn) { dM = PENG / w; } else { dM = 0; }
@@ -361,7 +369,7 @@ namespace FirstTrass
                 {
                     if (stage2)
                     {
-                        m -= mb2 - mt2;
+                        m -= mk2;
                         stage2 = false;
                     }
                     ///PENG = 0;
@@ -375,6 +383,11 @@ namespace FirstTrass
 
                 if (time > (T1 + k1 + T2 + k2) && time <= (T1 + k1 + T2 + k2 + T3))
                 {
+                    if (stage2)
+                    {
+                        m -= mk2;
+                        stage2 = false;
+                    }
                     PENG = PENG3;
                     w = w3;
                     dM = PENG3 / w3;
@@ -385,7 +398,7 @@ namespace FirstTrass
                 {
                     if (stage3)
                     {
-                        m -= mb3 - mt3-Form3.mpn*0.1/1.1;
+                        m -= (mk3+Form3.mpn*0.1/1.1);
                         stage3 = false;
                     }
                     ///PENG = 0;
@@ -400,6 +413,11 @@ namespace FirstTrass
 
                 if (time > (T1 + k1 + T2 + k2 + T3)) 
                 {
+                    if (stage3)
+                    {
+                        m -= (mk3 + Form3.mpn * 0.1 / 1.1);
+                        stage3 = false;
+                    }
                     Lrocket = Form3.Lgo;
                     PENG = PENG3;
                     w = w3;
